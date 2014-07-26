@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fingers.js DEMO</title>
+</head>
+<body>
+
+<script>
+    var proxySupported = (typeof Proxy == "object")
+    && Proxy.create
+    && Proxy.create({ get: eval.bind(0, !0) }).xyz;
+
+    if(proxySupported)
+    {
+        // load fingers
+        document.write('<script src="fingers.js"><\/script>');
+
+        document.write('<h1>Fingers.js loaded<\/h1>');
+        document.write('<p>You can now play with on(). <strong>Please open JS panel below.</strong><\/p>');
+        document.write('<pre class="_cssdeck_embed" data-pane="output" data-user="" data-href="pycxrskc" data-version="0"><\/pre><script async src="http://cssdeck.com/assets/js/embed.js"><\/script>');
+    }
+    else
+    {
+        var isChrome = navigator.userAgent.toLowerCase().indexOf('chrome') > -1;
+        if(isChrome)
+        {
+            document.write('<h1>Your JS Harmony\'s Proxy is disabled<\/h1>');
+            document.write('<p>To enable JS experimental features in Chrome, go to:<\/p>');
+            document.write('<p>chrome://flags/#enable-javascript-harmony<\/p>');
+            document.write('<p>and restart your browser.<\/p>');
+        }
+        else
+        {
+            document.write('<p>Proxy is not supported by your browser. Please use latest Chrome or Firefox<\/p>');
+        }
+    }
+</script>
+
+</body>
+</html>
