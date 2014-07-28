@@ -6,7 +6,7 @@
 <body>
 
 <script>
-    var proxySupported = (typeof Proxy == "object")
+    var proxySupported = (typeof Proxy) in {"object": 1, "function": 1}
     && Proxy.create
     && Proxy.create({ get: eval.bind(0, !0) }).xyz;
 
@@ -35,6 +35,13 @@
         }
     }
 </script>
+
+<ul>
+<li>Find me on Twitter: <a href="http://twitter.com/filip_zawada">@filip_zawada</a></li>
+<li>Comment on Twitter: <a href="https://twitter.com/intent/tweet?&text=Fingers.js%2C%20operator%20overloading%20in%20JavaScript%3A%20on%28elem%29.click%20%2B%3D%20handler1%20%2B%20function%28%29%7B%7D%3B%20%23FingersJS%20%23JS">#fingersJS</a></li>
+<li>Fork on Github: <a href="https://github.com/FilipZawada/Fingers.js">https://github.com/FilipZawada/Fingers.js</a></li>
+</ul>
+
 
 </body>
 </html>
