@@ -1,7 +1,7 @@
 Fingers.js
 ==========
 
-Fingers is a micro JavaScript library. It hacks js `+` and `-` operators to provide a nice way of adding event listeners. 
+Fingers is a proof-of-concept micro JavaScript library. It hacks js `+` and `-` operators to provide a nice way of adding event listeners. 
 It's not using any transcompiler, just pure JavaScript, plus a `Proxy` goodness from ES6 (already supported by Chrome, Firefox).
 
 So, let's try:
