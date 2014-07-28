@@ -40,6 +40,11 @@ function click() {
 Do you find this interesting? Please help spread the word by tweeting [\#fingersJS](https://twitter.com/intent/tweet?&text=Fingers.js%2C%20operator%20overloading%20in%20JavaScript%3A%20on%28elem%29.click%20%2B%3D%20handler1%20%2B%20function%28%29%7B%7D%3B%20%23FingersJS%20%23JS)
 
 
+Links:
+
++ [Article](http://filimanjaro.com/2012/operators-overloading-in-as3-javascript-too-%E2%80%93-workaround/) explaining core mechanism used here
++ Fingers AS3 [website](http://filimanjaro.com/fingers) and [github](github.com/FilipZawada/FingersAS3)
+
 Author:
 
 +   [Filip Zawada](http://filimanjaro.com/)   
