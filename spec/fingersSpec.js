@@ -110,6 +110,14 @@ describe("fingers", function () {
             expect(handler).not.toHaveBeenCalled();
         });
 
+      it("on(elem).click = -handler + handler; -- handler is not added", function () {
+            on(elem).click = -handler + handler;
+
+            elem.click();
+
+            expect(handler).not.toHaveBeenCalled();
+        });
+
     });
 
     describe("valueOf tests", function () {
