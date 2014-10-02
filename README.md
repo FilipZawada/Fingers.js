@@ -43,7 +43,7 @@ Do you find this interesting? Please help spread the word by tweeting [\#fingers
 Links:
 
 + [Article](http://filimanjaro.com/2012/operators-overloading-in-as3-javascript-too-%E2%80%93-workaround/) explaining core mechanism used here
-+ Fingers AS3 [website](http://filimanjaro.com/fingers) and [github](github.com/FilipZawada/FingersAS3)
++ Fingers AS3 [website](http://filimanjaro.com/fingers) and [github](https://github.com/FilipZawada/FingersAS3)
 
 Author:
 
